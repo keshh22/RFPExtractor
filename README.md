@@ -16,20 +16,22 @@ The RFP Document Parser is a Streamlit-based application made to extract structu
 - openai
 
 ### API Key:
-To use OpenAI's GPT models, you need a valid OpenAI API key. Enter it on the app interface sidebar. [I have used my OpenAI API Key credits to test the model. As it is a little expensive, use your own API key for testing or please reach out to me if you need my key for testing]
+To use OpenAI's GPT models, you need a valid OpenAI API key. Enter it on the app interface sidebar. [I have used my OpenAI API Key credits to test the model. As it is a little expensive, use your own API key for testing or please reach out to me if you need my key for testing].
 
 ## How to run the project:
-Create a new folder in your preffered IDE (eg:VSCode)
-On your terminal, run these commands in order:
+Create a new folder in your preffered IDE (eg:VSCode etc...) and open the integrated terminal.
+
+On the terminal, run these commands in order:
 - git clone https://github.com/keshh22/RFPExtractor.git
 - cd RFPExtractor
 - pip install -r requirements.txt
 - streamlit run app.py --server.enableXsrfProtection false
-The app should open on it's own, else go to http://localhost:8501 on your browser
+  
+The app should open on it's own, else go to http://localhost:8501 on your browser to view it.
 
 ### OpenAI API Key:
 - Enter it in the sidebar of the web interface.
-- Ensure the OpenAI API key has sufficient credits and permissions for GPT-4 usage
+- Ensure the OpenAI API key has sufficient credits and permissions for GPT-4 usage.
 
 ### Upload or Enter Document Details:
 - Upload File: Choose a PDF or HTML file from your system.
