@@ -1,0 +1,39 @@
+How the App Works:
+
+1. Document Upload
+The user begins by uploading an RFP document in either PDF or HTML format using the web interface.
+The uploaded document is read and processed depending on its type. The tool supports PDF and HTML formats, which are common for RFPs, but you could easily extend it to support other formats like DOCX or TXT if needed.
+
+2. Text Extraction from Uploaded Documents
+After the document is uploaded, the tool extracts the text from the document using appropriate parsers:
+PDF: The PyPDF2 library is used to extract text from the PDF file.
+HTML: The BeautifulSoup library is used to parse and extract the raw text from HTML documents.
+This raw text is essentially the unstructured content from the uploaded file, which may include tables, headers, and other formatting.
+
+3. Preprocessing
+The extracted text is then preprocessed:
+Whitespace is normalized to ensure consistency.
+The text is truncated to a specified number of tokens (i.e., words or characters) to prevent too long inputs from causing issues with the language model.
+This step ensures that the extracted text fits within the token limit of the GPT-4 model, which is important to avoid truncation of key information.
+4. RFP Extraction Using OpenAI GPT-4
+
+The preprocessed text is passed to the OpenAI GPT-4 model, where it is processed for RFP field extraction.
+GPT-4 (a large language model) is designed to handle natural language tasks and is capable of understanding complex, unstructured text. It uses its trained understanding of language, context, and common RFP structures to extract relevant information.
+In this process, the model:
+- Identifies and extracts key fields (like Bid Number, Title, Due Date, etc.) based on specific guidelines provided to it.
+- If an exact match for a field is not found, GPT-4 uses contextual inference to infer the most relevant information.
+- The model adheres to the guidelines by:
+- Being precise and specific when identifying fields.
+- Using actual text from the document wherever possible.
+- Providing structured JSON output with extracted information for each field.
+
+5. Structured JSON Output
+After processing the document, GPT-4 outputs a structured JSON object that includes the extracted data.
+ 
+6. User Interaction and Final Results
+The tool then displays the extracted RFP information in a structured, readable format within the web app interface.
+JSON Display: The extracted information is displayed as a JSON object, which can be directly copied or downloaded by the user.
+Optional Raw Text View: If enabled, the user can also view the raw document text to see what the model analyzed.
+
+7. Download Extracted Data
+After the information is displayed, the user has the option to download the extracted RFP data in JSON format, making it easier to use the data in other systems or processes.

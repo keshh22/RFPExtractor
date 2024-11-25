@@ -1,0 +1,26 @@
+{
+  "Bid Number": "JA-207652",
+  "Title": "Student and Staff Computing Devices",
+  "Due Date": "Not explicitly stated; inferred to be before the August board meeting for awarding.",
+  "Bid Submission Type": "Not explicitly stated; inferred to require electronic submission given the context of additional warranty information submission.",
+  "Term of Bid": "Not explicitly stated; inferred to start with projects from September 2024 based on delivery timeline.",
+  "Pre Bid Meeting Details": "Not mentioned.",
+  "Installation Requirements": "All deliveries and deployments must incorporate white glove services, which include asset decaling, asset reporting, etching, and delivery to varied locations.",
+  "Bid Bond Requirement": "Not mentioned.",
+  "Delivery Timeline": "Dallas ISD is anticipating requesting quotes for different projects from awarded vendors starting in September of 2024.",
+  "Payment Terms": "Dallas ISD will primarily be using bond-funded money to purchase devices.",
+  "Required Documentation": "Additional warranty information and pricing can be submitted as an attachment.",
+  "Manufacturer Registration": "Dallas ISD will ask all warranties to be made by OEM.",
+  "Cooperative Contract Options": "Not mentioned.",
+  "Product Models": "Specific models not mentioned; vendors are asked to propose make and model of the device being proposed.",
+  "Product Part Numbers": "Not mentioned.",
+  "Product Categories": "Student Chromebooks, Student and Staff Windows laptops",
+  "Contact Information": "Not explicitly provided in the provided text.",
+  "Issuing Organization": "Dallas ISD",
+  "Bid Objective Summary": "To provide responses to vendors\u2019 questions related to the RFP for student and staff computing devices, including specifications and warranty requirements.",
+  "Technical Specifications": {
+    "USB Port Requirement": "USB 3.1 is a minimum requirement; higher specifications are permissible.",
+    "Etching Requirement": "Only required on laptops, not on stand-alone monitors or AIO computers.",
+    "Warranty Requirement": "A one-year warranty for student Chromebooks and three years for student and staff Windows laptops as a minimum requirement."
+  }
+}

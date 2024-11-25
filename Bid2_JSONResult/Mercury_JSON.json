@@ -1,0 +1,24 @@
+{
+  "Bid Number": "Not Provided",
+  "Title": "Not Provided",
+  "Due Date": "Not Provided",
+  "Bid Submission Type": "Not Provided",
+  "Term of Bid": "Not Provided",
+  "Pre Bid Meeting Details": "Not Provided",
+  "Installation Requirements": "Not Provided",
+  "Bid Bond Requirement": "Not Provided",
+  "Delivery Timeline": "Not Provided",
+  "Payment Terms": "Not Provided",
+  "Required Documentation": [
+    "Mercury Affidavit"
+  ],
+  "Manufacturer Registration": "Not Provided",
+  "Cooperative Contract Options": "Not Provided",
+  "Product Models": "Not Provided",
+  "Product Part Numbers": "Not Provided",
+  "Product Categories": "Not Provided",
+  "Contact Information": "Not Provided",
+  "Issuing Organization": "Not Provided",
+  "Bid Objective Summary": "The affidavit is required for the procurement process to affirm that the products offered either do or do not contain mercury. If they do contain mercury, the affidavit must describe the product or component containing mercury, provide the amount of mercury, and the unit of measure.",
+  "Technical Specifications": "Mercury Content Information must specify if products contain mercury, details of the product or component containing mercury, and the amount of mercury with the unit of measure."
+}

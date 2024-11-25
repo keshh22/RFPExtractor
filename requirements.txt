@@ -1,0 +1,5 @@
+streamlit
+PyPDF2
+beautifulsoup4
+requests
+openai

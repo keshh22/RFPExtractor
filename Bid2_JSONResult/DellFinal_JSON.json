@@ -1,0 +1,36 @@
+{
+  "Bid Number": "#E20P4600040",
+  "Title": "Purchase Order Request for Proposals (PORFP) Hardware Master Contract",
+  "Due Date": "06/10/2024",
+  "Bid Submission Type": "eMaryland Marketplace Advantage (eMMA) e-Procurement system",
+  "Term of Bid": "Proposals/quotes to be valid for at least 90 days after the set due date",
+  "Pre Bid Meeting Details": "Not Provided",
+  "Installation Requirements": "Not Provided",
+  "Bid Bond Requirement": "Not Provided",
+  "Delivery Timeline": "Within 45 days of Award",
+  "Payment Terms": "Invoice(s) shall be submitted within 10 days of delivering the equipment",
+  "Required Documentation": [
+    "Letter of Authorization (LOA) from the Manufacturer or Distributor if requested",
+    "Mercury Affidavit",
+    "Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers"
+  ],
+  "Manufacturer Registration": "The Master Contractor must be an authorized reseller for Dell",
+  "Cooperative Contract Options": "Not Provided",
+  "Product Models": "Not Provided",
+  "Product Part Numbers": "Not Provided",
+  "Product Categories": [
+    "FA I (Printers and Associated Peripherals)",
+    "FA V (Manufacturer\u2019s Extended Warranty)"
+  ],
+  "Contact Information": {
+    "Agency POC Name": "Tamaira Hawkins",
+    "Agency POC Phone Number": "410-260-7533",
+    "Email": "thawkins@treasurer.state.md.us"
+  },
+  "Issuing Organization": "State Treasurer's Office/ Information Technology",
+  "Bid Objective Summary": "This PORFP aims to procure hardware under the categories of Printers and Associated Peripherals and Manufacturer\u2019s Extended Warranty, specifically for Dell products, with a focus on small business participation.",
+  "Technical Specifications": [
+    "Purchase new and unused equipment",
+    "ENERGY STAR certified product"
+  ]
+}
