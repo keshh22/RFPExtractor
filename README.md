@@ -19,7 +19,7 @@ The RFP Document Parser is a Streamlit-based application made to extract structu
 To use OpenAI's GPT models, you need a valid OpenAI API key. Enter it on the app interface sidebar. [I have used my OpenAI API Key credits to test the model. As it is a little expensive, use your own API key for testing or please reach out to me if you need my key for testing].
 
 ## How to run the project:
-Create a new folder in your preferred IDE (eg:VSCode etc...) and open the integrated terminal.
+Create a new folder in your preferred IDE (eg: VSCode etc...) and open the integrated terminal.
 
 On the terminal, run these commands in order:
 - git clone https://github.com/keshh22/RFPExtractor.git
